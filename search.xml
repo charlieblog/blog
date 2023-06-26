@@ -29,6 +29,31 @@
     
     
     <entry>
+      <title>Hello World</title>
+      <link href="/2020/11/15/helloworld/"/>
+      <url>/2020/11/15/helloworld/</url>
+      
+        <content type="html"><![CDATA[<img                       lazyload                     src="/images/loading.svg"                     data-src="/2020/11/15/helloworld/cover.webp"                      class="" title="spaced title"                ><p><em>Hello world!</em><br><strong>Hello world!</strong><br><code>Hello world!</code></p><span id="more"></span><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">(<span class="type">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d%d&quot;</span>,&amp;a,&amp;b);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,a+b);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p>$$<br>\frac{\partial u}{\partial t} &#x3D; h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)<br>$$</p><div id="flowchart-0" class="flow-chart"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">{% raw %}Start=>start: 开始Input=>inputoutput: 输入平时成绩和期末考试成绩Con1=>condition: 期末考试成绩 &lt; 45 ?Con2=>condition: 成绩 &lt; 60 ?Calc=>subroutine: 期末成绩 = 期末考试成绩 * 0.5 + 平时成绩 * 0.5OutOK=>inputoutput: 输出成绩OutGG=>inputoutput: 在线挂科End=>end: 结束Start->Input->Con1Con1(yes)->OutGG->EndCon1(no)->Calc(bottom)->Con2Con2(yes,left)->OutGG->EndCon2(no)->OutOK->End{% endraw %}</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>巧用 Vercel 路由</title>
       <link href="/2020/11/15/vercel-route/"/>
       <url>/2020/11/15/vercel-route/</url>
@@ -69,6 +94,17 @@
     
     
     <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于我</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -85,17 +121,6 @@
       <url>/friends/index.html</url>
       
         <content type="html"><![CDATA[<h3 id="主机商们"><a href="#主机商们" class="headerlink" title="主机商们:"></a>主机商们:</h3><ul><li>感谢 <a class="link"   href="https://vercel.com/" >Vercel <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 提供国内访问较快的日本和香港节点来加速国内访问。</li><li>感谢 <a class="link"   href="https://cloudflare.com/" >Cloudflare <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 提供本域名的 DNS 服务以及部分网站的 Serverless Worker 服务。</li></ul><h3 id="主题："><a href="#主题：" class="headerlink" title="主题："></a>主题：</h3><ul><li>感谢 <a class="link"   href="https://github.com/jerryc127/hexo-theme-butterfly" >hexo-theme-butterfly <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 的开发者们。</li></ul><h3 id="域名："><a href="#域名：" class="headerlink" title="域名："></a>域名：</h3><ul><li>感谢 <a class="link"   href="https://freenom.com/" >freenom <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 提供免费域名 <a class="link"   href="https://charliez0sp.ml/" >charliez0sp.ml <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> <a class="link"   href="https://charliez0sp.cf/" >charliez0sp.cf <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> <a class="link"   href="https://charliez0sp.ga/" >charliez0sp.ga <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> <a class="link"   href="https://charliez0sp.gq/" >charliez0sp.gq <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> <a class="link"   href="https://charliez0sp.tk/" >charliez0sp.tk <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。<br>注册 <a class="link"   href="https://freenom.com/" >freenom <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 时要注意使用真实 IP，可以考虑使用 <a class="link"   href="https://github.com/jiacai2050/gooreplacer" >gooreplacer <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>来修复国内难以访问的 Google 认证问题。</li><li>感谢 <a class="link"   href="https://js.org/" >js-org <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 提供了域名 <a href="https://charliez0.js.org/">charliez0.js.org</a> 帮助我解决了百度等搜索引擎收录的问题。<br>注册 <a class="link"   href="https://js.org/" >js-org <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 域名方法详见 Github repo <a class="link"   href="https://github.com/js-org/js.org" >js-org&#x2F;js.org <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。</li></ul>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     

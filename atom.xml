@@ -38,6 +38,34 @@
   </entry>
   
   <entry>
+    <title>Hello World</title>
+    <link href="https://charliez0.js.org/2020/11/15/helloworld/"/>
+    <id>https://charliez0.js.org/2020/11/15/helloworld/</id>
+    <published>2020-11-14T16:00:00.000Z</published>
+    <updated>2023-06-26T06:42:55.833Z</updated>
+    
+    <content type="html"><![CDATA[<img                       lazyload                     src="/images/loading.svg"                     data-src="/2020/11/15/helloworld/cover.webp"                      class="" title="spaced title"                ><p><em>Hello world!</em><br><strong>Hello world!</strong><br><code>Hello world!</code></p><span id="more"></span><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">(<span class="type">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d%d&quot;</span>,&amp;a,&amp;b);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,a+b);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p>$$<br>\frac{\partial u}{\partial t} &#x3D; h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)<br>$$</p><div id="flowchart-0" class="flow-chart"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">{% raw %}Start=>start: 开始Input=>inputoutput: 输入平时成绩和期末考试成绩Con1=>condition: 期末考试成绩 &lt; 45 ?Con2=>condition: 成绩 &lt; 60 ?Calc=>subroutine: 期末成绩 = 期末考试成绩 * 0.5 + 平时成绩 * 0.5OutOK=>inputoutput: 输出成绩OutGG=>inputoutput: 在线挂科End=>end: 结束Start->Input->Con1Con1(yes)->OutGG->EndCon1(no)->Calc(bottom)->Con2Con2(yes,left)->OutGG->EndCon2(no)->OutOK->End{% endraw %}</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script>]]></content>
+    
+    
+    <summary type="html">&lt;img  
+                     lazyload
+                     src=&quot;/images/loading.svg&quot;
+                     data-src=&quot;/2020/11/15/helloworld/cover.webp&quot;
+                      class=&quot;&quot; title=&quot;spaced title&quot;
+                &gt;
+
+&lt;p&gt;&lt;em&gt;Hello world!&lt;/em&gt;&lt;br&gt;&lt;strong&gt;Hello world!&lt;/strong&gt;&lt;br&gt;&lt;code&gt;Hello world!&lt;/code&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="测试" scheme="https://charliez0.js.org/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="测试" scheme="https://charliez0.js.org/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>巧用 Vercel 路由</title>
     <link href="https://charliez0.js.org/2020/11/15/vercel-route/"/>
     <id>https://charliez0.js.org/2020/11/15/vercel-route/</id>
