@@ -1,10 +1,6 @@
-export default function handler(req: Request) {
-    let header = new Headers();
-    header.set('Cache-Control', 's-maxage=63072000');
+import type { VercelRequest, VercelResponse } from '@vercel/node';
 
-    return new Response("OK", {
-        "status": 200,
-        "statusText": "OK",
-        "headers": header
-    });
+export default function handler(req: VercelRequest, res:VercelResponse) {
+    res.setHeader('Cache-Control', 's-maxage=63072000');
+    res.end("OK");
 }
