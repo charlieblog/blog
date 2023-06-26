@@ -94,22 +94,22 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>关于我</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>大家好，我是 charliez0，一个爱折腾的合肥工业大学宣城校区的学生，我喜欢撸各种免费服务的羊毛并经常在网上维护一些有趣的东西。</p><p>对我感兴趣的也可关注以下我的 Github <a class="link"   href="https://github.com/charliez0" >https://github.com/charliez0 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><p>废话少说，赶紧去做作业吧！</p>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>关于我</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<p>大家好，我是 charliez0，一个爱折腾的合肥工业大学宣城校区的学生，我喜欢撸各种免费服务的羊毛并经常在网上维护一些有趣的东西。</p><p>对我感兴趣的也可关注以下我的 Github <a class="link"   href="https://github.com/charliez0" >https://github.com/charliez0 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><p>废话少说，赶紧去做作业吧！</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
